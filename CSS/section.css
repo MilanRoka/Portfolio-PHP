@@ -1,0 +1,23 @@
+.leftside {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-left: 20rem;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
+  img {
+    padding-right: 15rem;
+    margin-left: auto; /* Push the image to the far right */
+  }
+  button {
+    background-color: rgb(66, 22, 224);
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(20, 20, 63);
+  }
+  
