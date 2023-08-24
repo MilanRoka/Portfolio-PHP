@@ -9,4 +9,19 @@ i{
 
 .icon{
     display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+}
+.name{
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+form{
+    margin: 5rem 0;
+
+}
+.about{
+    width: 50%;
 }
