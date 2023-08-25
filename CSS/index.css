@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+
+.navbar {
+  box-shadow: 1px 1px 5px lightblue;
+  background-color: ff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.navbar a {
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  color: black;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(187, 187, 233);
+  text-decoration-thickness: 2px;
+}
+
+.logo {
+  color: rgb(19, 173, 194);
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: auto;
+  padding-left: 80px;
+}
+
+/* about section */
+.heading {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.knowMore{
+  color: red"
+}
+
+.image {
+  display: flex;
+}
+.aboutImage {
+  height: 600px;
+  width: 500px;
+  object-fit: cover;
+}
+.description {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 0 4rem;
+}
+.abtHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0 4rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.btnCv {
+  background-color: red;
+  color: white;
+  padding: 1rem 1rem;
+  margin: 1rem 4rem;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.about {
+  width: 60%;
+}
+
+/* home  */
+.leftside {
+  display: flex;
+  padding-left: 20rem;
+  padding-top: 5rem;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.bgImage {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.firstImage {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+.firstBtn {
+  background-color: rgb(88, 35, 211);
+  color: white;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.icons{
+  font-size: x-large;
+  align-items: center;
+  margin: 6rem 19rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+/* services */
+
+.heading {
+  color: rgb(177, 172, 172);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.rectangles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 1rem 4rem 1rem 1rem;
+}
+.rectangle {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(48, 42, 42);
+}
+.rectangle i {
+  font-size: 3rem;
+  color: red;
+  margin: 1rem 0;
+  padding-left: 45%;
+  border-radius: 10px;
+}
+.headLine {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(36, 207, 30);
+}
+h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+}
+.backGround {
+  background-color: black;
+  color: white;
+}
+.describe{
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem 0;
+}
+/* contact section  */
+
+i {
+  color: red;
+}
+h3{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 4rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin: 1rem 4rem;
+}
+.name {
+  margin: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+} 
+.form-container{
+  padding: 6rem 1rem;
+
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-right: 14rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+textarea {
+  height: 150px;
+}
+.submit-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: darkred;
+}

@@ -8,16 +8,16 @@
       src="https://kit.fontawesome.com/fca44159be.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../CSS/contact.css" />
+    <link rel="stylesheet" href="../CSS/index.css" />
   </head>
   <body>
     <div class="heading">
       <h1>Contact Me</h1>
-      <p style="color: red">__Know more__</p>
+      <p style="color: red">__Get in Touch__</p>
     </div>
     <div style="display: flex;">
     <div class="about">
-      <h3>I am Milan and I am Wordpress Dev</h3>
+      <h3>Get in touch</h3>
       <p class="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         inventore possimus ullam minima aliquid natus maxime necessitatibus
@@ -46,14 +46,29 @@
         </div>
       </div>
       
-    </div> 
-    <form>
-      <h2>Message me</h2>
-      <input type="text" id="fname" name="fname" placeholder="Name"><br>
-      <input type="text" id="lname" name="lname" placeholder="Subject"><br><br>
-      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Message"></textarea>
-      <input type="submit" value="Submit">
-    </form>
+    </div>
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </body>
+  </html>
+  
+  
+  
+  
+  
+  
   </div>     
   </body>
 </html>
